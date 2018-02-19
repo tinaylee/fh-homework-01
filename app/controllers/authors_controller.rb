@@ -13,8 +13,8 @@ class AuthorsController < ApplicationController
   end
 
   # GET /authors/new
-  def news
-    @authors = Author.new
+  def new
+    @author = Author.new
   end
 
   # GET /authors/1/edit
@@ -23,7 +23,7 @@ class AuthorsController < ApplicationController
 
   # POST /authors
   # POST /authors.json
-  def creates
+  def create
     @author = Author.new(author_params)
 
     respond_to do |format|

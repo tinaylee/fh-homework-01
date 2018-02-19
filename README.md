@@ -2,7 +2,7 @@
 
 ## Due Date
 
-TBD
+Wednesday, February 21, 2018 @ 4:00 PM
 
 ## Goals
 
@@ -18,8 +18,8 @@ NA
   ```
   $ sudo apt-get update
   $ sudo apt-get install sqlite3 libsqlite3-dev
-  $ unzip homework-01.zip
-  $ cd /path/to/rails/homework-01
+  $ unzip fh-homework-01.zip
+  $ cd /path/to/rails/fh-homework-01
   $ bundle install
   $ rails db:create
   $ rails db:migrate
@@ -82,7 +82,7 @@ NA
 
 ## Deliverables
 
-  - create a repo called `homework-01` and push your solution to Github.com
+  - create a repo called `fh-homework-01` and push your solution to Github.com
 
 ## Have Questions
 

@@ -13,7 +13,7 @@
   </thead>
 
   <tbody>
-    <% @authors.each do |author| %>
+    <% @author.each do |author| %>
       <tr>
         <td><%= author.first_name %></td>
         <td><%= author.last_name %></td>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Author', new_authors_path %>
+<%= link_to 'New Author', new_author_path %>
